@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pandora.Utility", "Pandora.Utility\Pandora.Utility.csproj", "{03DAE8A6-8F1B-493B-AD51-04E989E3ABC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{188037B4-F074-4200-A826-F8B3B782BA3B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Pandora.Utility\stylecop.json = Pandora.Utility\stylecop.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Utility.Tests", "Pandora.Utility.Tests\Pandora.Utility.Tests.csproj", "{E0CD45F7-9A1E-49DE-BAAD-7FFDCD668314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03DAE8A6-8F1B-493B-AD51-04E989E3ABC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DAE8A6-8F1B-493B-AD51-04E989E3ABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DAE8A6-8F1B-493B-AD51-04E989E3ABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DAE8A6-8F1B-493B-AD51-04E989E3ABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CD45F7-9A1E-49DE-BAAD-7FFDCD668314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CD45F7-9A1E-49DE-BAAD-7FFDCD668314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CD45F7-9A1E-49DE-BAAD-7FFDCD668314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CD45F7-9A1E-49DE-BAAD-7FFDCD668314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49566DCC-0139-4F8F-8F40-40DFAE1CE3B0}
+	EndGlobalSection
+EndGlobal
